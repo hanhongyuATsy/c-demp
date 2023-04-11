@@ -1,0 +1,12 @@
+{
+    "ecuLogLevel": "",
+    "enableLogTrace": "ON",
+    "logTraceDefaultLogLevel": "WARN",
+    "logTraceFileNum": "2",
+    "logTraceFilePath": "/containers/NeuSARPlatform/work/common/log/",
+    "logTraceFileSize": "524288",
+    "logTraceLogLevel": "ERROR",
+    "logTraceLogMode": "NETWORK",
+    "logTraceProcessDesc": "The description of EXEC",
+    "logTraceProcessId": "EXEC"
+}

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "AsfServiceDispatchingManagement"
+  "AsfServiceDispatchingManagement.pdb"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/AsfServiceDispatchingManagement.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/ara_com_main-AsfServiceDispatchingManagement.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/includes/ap_servicemanagementinterface_rport_port_proxy.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/includes/sdmservice_pport_port_skeleton.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/includes/vcpcloudreportinterface_rport_port_proxy.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara/com/ap_servicemanagementinterface/instantiate_template/ap_servicemanagementinterface_instantiate_method_template1.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara/com/ap_servicemanagementinterface/service_desc_ap_servicemanagementinterface.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara/com/sdmservice/adapter_sdmservice.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara/com/sdmservice/service_desc_sdmservice.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara/vcpcloudreport/instantiate_template/vcpcloudreportinterface_instantiate_method_template1.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara/vcpcloudreport/service_desc_vcpcloudreportinterface.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara__com__ap_servicemanagementinterface__ap_servicemanagementinterface__mapping.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara__com__sdmservice__sdmservice__mapping.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/ara__vcpcloudreport__vcpcloudreportinterface__mapping.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/gen/AsfServiceDispatchingManagement/vsomeip/vsomeip_service_mapping-AsfServiceDispatchingManagement.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/CloudServiceCollector.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/ConfigOperation.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/ConfigServiceCollector.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/FGFactory.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/FGServiceConfigManager.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/FGServiceListManager.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/FGServiceStateManager.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/FactoryProducer.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/LocalServiceBase.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/LocalServiceCollector.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/NeusarWrapperAdapterImpl.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/SDMservice.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/ServiceCollectorBase.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/ServiceList.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/ServiceMonitorAdapterImpl.cpp.o"
+  "CMakeFiles/AsfServiceDispatchingManagement.dir/src/ServiceStateClientProxy.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/AsfServiceDispatchingManagement.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

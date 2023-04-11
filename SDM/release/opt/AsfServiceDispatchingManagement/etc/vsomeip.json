@@ -1,0 +1,76 @@
+{
+  "logging": {
+    "level": "debug", 
+    "console": "true", 
+    "file": {
+      "path": "/var/log/vsomeip.log", 
+      "enable": "false"
+    }, 
+    "dlt": "true"
+  }, 
+  "clients": [
+    {
+      "reliable_remote_ports": {
+        "first": "1025", 
+        "last": "65534"
+      }, 
+      "unreliable_remote_ports": {
+        "first": "1025", 
+        "last": "65534"
+      }, 
+      "reliable_client_ports": {
+        "first": "30500", 
+        "last": "65534"
+      }, 
+      "unreliable_client_ports": {
+        "first": "30500", 
+        "last": "65534"
+      }
+    }
+  ], 
+  "applications": [
+    {
+      "name": "AsfServiceDispatchingManagement", 
+      "id": "0xa26d"
+    }
+  ], 
+  "routing": "vsomeipd", 
+  "services": [
+    {
+      "service": "0x800a", 
+      "instance": "1", 
+      "unicast": "172.16.66.79", 
+      "events": [], 
+      "Tagwithoptionalvalue": []
+    }, 
+    {
+      "service": "0x10f8", 
+      "instance": "1", 
+      "unicast": "172.16.66.79", 
+      "unreliable": "50236", 
+      "udpcollectionbuffersize": "None", 
+      "eventgroups": []
+    }, 
+    {
+      "service": "0x10fa", 
+      "instance": "1", 
+      "unicast": "172.16.66.79", 
+      "events": [], 
+      "Tagwithoptionalvalue": []
+    }, 
+    {
+      "service": "0x8009", 
+      "instance": "1", 
+      "unicast": "172.16.66.79", 
+      "events": [
+        {
+          "is_reliable": "true", 
+          "event": "32769", 
+          "Serializer": "SOMEIP", 
+          "is_field": "false"
+        }
+      ], 
+      "Tagwithoptionalvalue": []
+    }
+  ]
+}

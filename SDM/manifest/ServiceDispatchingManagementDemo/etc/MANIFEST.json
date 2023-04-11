@@ -1,0 +1,136 @@
+[
+    {
+        "checksum": 0,
+        "key": "platform_application",
+        "value": {
+            "bool": false
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "application_states",
+        "value": {
+            "string[]": []
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "safety_application",
+        "value": {
+            "bool": false
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "signature_value",
+        "value": {
+            "string": "ThisApplicationSignatureValueInManifest"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "second_signature_value",
+        "value": {
+            "string": "ThisApplicationSecondSignatureValueInManifest"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "timer_resolution_ns",
+        "value": {
+            "uint32": 1000
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "number_of_restart_attempts",
+        "value": {
+            "uint32": 0
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "reporting_behavior",
+        "value": {
+            "string": "REPORTS-EXECUTION-STATE"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "version",
+        "value": {
+            "string": "1.0.0.0000"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "startup_configs",
+        "value": {
+            "object[]": [
+                {
+                    "checksum": 0,
+                    "key": "GeneralStartupConfig",
+                    "value": {
+                        "object[]": [
+                            {
+                                "checksum": 0,
+                                "key": "machine_states",
+                                "value": {
+                                    "string[]": []
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "function_group_states",
+                                "value": {
+                                    "string[]": [
+                                        "Container02.Verify",
+                                        "Container02.Running"
+                                    ]
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "arguments",
+                                "value": {
+                                    "string[]": [
+                                        "exec",
+                                        "-e",
+                                        "VSOMEIP_CONFIGURATION=/containers/Container02/work/common/opt/ServiceDispatchingManagementDemo/etc/vsomeip.json",
+                                        "-e",
+                                        "E2E_CONFIGURATION=/containers/Container02/work/common/opt/ServiceDispatchingManagementDemo/etc/e2e_configuration.json",
+                                        "-e",
+                                        "S2S_CONFIGURATION=/containers/Container02/work/common/opt/ServiceDispatchingManagementDemo/etc/s2s_config.json",
+                                        "-e",
+                                        "NEUSAR_CURRENT_DIR=/containers/Container02/work/common/opt/ServiceDispatchingManagementDemo",
+                                        "Container02",
+                                        "/containers/Container02/work/common/opt/ServiceDispatchingManagementDemo/bin/ServiceDispatchingManagementDemo"
+                                    ]
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "scheduling_policy",
+                                "value": {
+                                    "string": "SCHEDULING-POLICY-OTHER"
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "environment",
+                                "value": {
+                                    "string[]": [
+                                        "VSOMEIP_CONFIGURATION=/containers/NeuSARPlatform/work/common/opt/ServiceDispatchingManagementDemo/etc/vsomeip.json",
+                                        "E2E_CONFIGURATION=/containers/NeuSARPlatform/work/common/opt/ServiceDispatchingManagementDemo/etc/e2e_configuration.json",
+                                        "NEUSAR_CURRENT_DIR=/containers/NeuSARPlatform/work/common/opt/ServiceDispatchingManagementDemo",
+                                        "S2S_CONFIGURATION=/containers/NeuSARPlatform/work/common/opt/ServiceDispatchingManagementDemo/etc/s2s_config.json"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

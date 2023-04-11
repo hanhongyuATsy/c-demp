@@ -1,0 +1,23 @@
+{
+    "ServiceList":
+    [
+        {
+            "service" : "0x4649",
+            "instance" : "0x1",
+            "major_version" : "1",
+            "protocol": "1",
+            "port": "1000",
+            "type": "1",
+            "ip" : "192.168.1.110"
+        },
+        {
+            "service" : "0x4649",
+            "instance" : "0x1",
+            "major_version" : "1",
+            "protocol": "0x1230",
+            "port": "3000",
+            "type": "1",
+            "ip" : "192.168.1.110",
+        }
+    ]
+}

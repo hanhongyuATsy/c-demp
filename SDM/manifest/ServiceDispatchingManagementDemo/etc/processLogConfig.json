@@ -1,0 +1,11 @@
+{
+    "logTraceDefaultLogLevel": "WARN",
+    "logTraceFileNum": "2",
+    "logTraceFilePath": "/containers/NeuSARPlatform/work/common/log",
+    "logTraceFileSize": "2048",
+    "logTraceLogLevel": "ERROR",
+    "logTraceLogMode": "NETWORK",
+    "logTraceProcessDesc": "log for ServiceDispatchingManagementDemo",
+    "logTraceProcessId": "SDML",
+    "process": "ServiceDispatchingManagementDemo"
+}

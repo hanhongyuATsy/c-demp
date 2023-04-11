@@ -1,0 +1,9 @@
+[
+  {
+    "checksum": 0, 
+    "value": {
+      "string": "ServiceDispatchingManagementDemo"
+    }, 
+    "key": "VSOMEIP_APPLICATION_NAME"
+  }
+]

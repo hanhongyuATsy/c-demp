@@ -1,0 +1,699 @@
+[
+    {
+        "checksum": 0,
+        "key": "resource_groups",
+        "value": {
+            "object[]": []
+        }
+    },
+    {
+        "key": "MachineState",
+        "value": {
+            "object[]": [
+                {
+                    "key": "Restart",
+                    "value": {
+                        "object[]": []
+                    }
+                },
+                {
+                    "key": "Running",
+                    "value": {
+                        "object[]": []
+                    }
+                },
+                {
+                    "key": "Shutdown",
+                    "value": {
+                        "object[]": []
+                    }
+                },
+                {
+                    "key": "Startup",
+                    "value": {
+                        "object[]": []
+                    }
+                },
+                {
+                    "key": "Update",
+                    "value": {
+                        "object[]": []
+                    }
+                },
+                {
+                    "key": "Verify",
+                    "value": {
+                        "object[]": []
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "key": "function_groups",
+        "value": {
+            "object[]": [
+                {
+                    "key": "Container02",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container05",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container06",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container07",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container08",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "initial"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container09",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container10",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container11",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "initial",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container13",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container14",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container16",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "Container20",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key": "NeusarHealth",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "states",
+                                "value": {
+                                    "object[]": [
+                                        {
+                                            "key": "Off",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Running",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Update",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        },
+                                        {
+                                            "key": "Verify",
+                                            "value": {
+                                                "object[]": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "initial_state",
+                                "value": {
+                                    "string": "Off"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "key": "ucmmod",
+        "value": {
+            "object[]": [
+                {
+                    "key": "UcmModuleInstantiation",
+                    "value": {
+                        "object[]": [
+                            {
+                                "key": "name",
+                                "value": {
+                                    "string": "UcmModuleInstantiation"
+                                }
+                            },
+                            {
+                                "key": "identifier",
+                                "value": {
+                                    "string": "UcmId1"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

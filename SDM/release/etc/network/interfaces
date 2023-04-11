@@ -1,0 +1,26 @@
+# /etc/network/interfaces -- configuration file for ifup(8), ifdown(8)
+
+# The loopback interface
+auto lo
+iface lo inet loopback
+
+auto pfe2
+iface pfe2 inet static
+	address 172.16.2.79
+	netmask 255.255.240.0
+	gateway 172.16.2.1
+auto vlan16
+iface vlan16 inet static
+	address 172.17.2.79
+	netmask 255.255.240.0
+	gateway 172.17.2.1
+auto vlan4
+iface vlan4 inet static
+	address 172.16.66.79
+	netmask 255.255.240.0
+	gateway 172.16.66.1
+auto vlan7
+iface vlan7 inet static
+	address 172.16.114.79
+	netmask 255.255.240.0
+	gateway 172.16.114.1

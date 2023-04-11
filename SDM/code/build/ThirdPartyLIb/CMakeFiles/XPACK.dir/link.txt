@@ -1,0 +1,2 @@
+aarch64-poky-linux-ar qc ../../ThirdPartyLIb/libs/libXPACK.a 
+aarch64-poky-linux-ranlib ../../ThirdPartyLIb/libs/libXPACK.a

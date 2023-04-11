@@ -1,0 +1,2 @@
+aarch64-poky-linux-ar qc ../../ThirdPartyLIb/libs/libJSONCPP.a CMakeFiles/JSONCPP.dir/src/jsoncpp/json_reader.cpp.o CMakeFiles/JSONCPP.dir/src/jsoncpp/json_value.cpp.o CMakeFiles/JSONCPP.dir/src/jsoncpp/json_writer.cpp.o
+aarch64-poky-linux-ranlib ../../ThirdPartyLIb/libs/libJSONCPP.a

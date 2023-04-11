@@ -1,0 +1,47 @@
+{
+  "logging": {
+    "level": "debug", 
+    "console": "true", 
+    "file": {
+      "path": "/var/log/vsomeip.log", 
+      "enable": "false"
+    }, 
+    "dlt": "true"
+  }, 
+  "clients": [
+    {
+      "reliable_remote_ports": {
+        "first": "1025", 
+        "last": "65534"
+      }, 
+      "unreliable_remote_ports": {
+        "first": "1025", 
+        "last": "65534"
+      }, 
+      "reliable_client_ports": {
+        "first": "30500", 
+        "last": "65534"
+      }, 
+      "unreliable_client_ports": {
+        "first": "30500", 
+        "last": "65534"
+      }
+    }
+  ], 
+  "applications": [
+    {
+      "name": "ServiceDispatchingManagementDemo", 
+      "id": "0x3cd4"
+    }
+  ], 
+  "routing": "vsomeipd", 
+  "services": [
+    {
+      "service": "0x10f8", 
+      "instance": "1", 
+      "unicast": "172.16.66.79", 
+      "events": [], 
+      "Tagwithoptionalvalue": []
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc 
+Build flags: -O2;-g3;
+Id flags:  
+
+The output was:
+1
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find Scrt1.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crti.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc_s
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lc
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc_s
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crtendS.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ 
+Build flags: -O2;-g3
+Id flags:  
+
+The output was:
+1
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find Scrt1.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crti.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crtbeginS.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lstdc++
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lm
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc_s
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lc
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc_s
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lgcc
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crtendS.o: No such file or directory
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_78b4d/fast && /home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_78b4d.dir/build.make CMakeFiles/cmTC_78b4d.dir/build
+make[1]: Entering directory '/mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78b4d.dir/src.c.o
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc --sysroot=/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/cortexa53-crypto-poky-linux   -O2 -g3  -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_78b4d.dir/src.c.o -c /mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_78b4d
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b4d.dir/link.txt --verbose=1
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc --sysroot=/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/cortexa53-crypto-poky-linux -O2 -g3  -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_78b4d.dir/src.c.o -o cmTC_78b4d 
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: CMakeFiles/cmTC_78b4d.dir/src.c.o: in function `main':
+/mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp/src.c:11: undefined reference to `pthread_create'
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: /mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp/src.c:12: undefined reference to `pthread_detach'
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: /mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp/src.c:13: undefined reference to `pthread_cancel'
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: /mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp/src.c:14: undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_78b4d.dir/build.make:106: cmTC_78b4d] Error 1
+make[1]: Leaving directory '/mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_78b4d/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_b98b4/fast && /home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/make  -f CMakeFiles/cmTC_b98b4.dir/build.make CMakeFiles/cmTC_b98b4.dir/build
+make[1]: Entering directory '/mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b98b4.dir/CheckFunctionExists.c.o
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc --sysroot=/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/cortexa53-crypto-poky-linux   -O2 -g3  -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b98b4.dir/CheckFunctionExists.c.o -c /home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b98b4
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b98b4.dir/link.txt --verbose=1
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc --sysroot=/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/cortexa53-crypto-poky-linux -O2 -g3  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now  -rdynamic CMakeFiles/cmTC_b98b4.dir/CheckFunctionExists.c.o -o cmTC_b98b4  -lpthreads 
+/home/hhy/sdk/arm_sdk_1.5/toolchain/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/10.2.0/real-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b98b4.dir/build.make:106: cmTC_b98b4] Error 1
+make[1]: Leaving directory '/mnt/d/work/git/SDM/code/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_b98b4/fast] Error 2
+
+
+

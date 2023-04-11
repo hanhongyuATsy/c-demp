@@ -1,0 +1,166 @@
+{
+    "Container02": {
+        "apps": [
+            "ServiceDispatchingManagementDemo"
+        ],
+        "container": "default"
+    },
+    "Container05": {
+        "apps": [
+            "AsfOtaClient",
+            "IDC"
+        ],
+        "container": "default"
+    },
+    "Container06": {
+        "apps": [
+            "TesterFlash",
+            "VirtualTesterAPP",
+            "AraDcmAuthentication",
+            "DiagService",
+            "VirtualTesterClient",
+            "AsfDScriptParsing"
+        ],
+        "container": "default"
+    },
+    "Container07": {
+        "apps": [
+            "VehicleInformationConfig",
+            "VehicleInformationStore",
+            "SoftwareVersionManagement"
+        ],
+        "container": "default"
+    },
+    "Container08": {
+        "apps": [
+            "AsfServiceDispatchingManagement",
+            "VCLibAppPilingTest",
+            "VCPS",
+            "PKI",
+            "VCAppPilingTest",
+            "VehicleCloud",
+            "AsfVCProxyService",
+            "RemoteControlClient",
+            "ioTsecuSrv"
+        ],
+        "container": "default"
+    },
+    "Container09": {
+        "apps": [
+            "BigDataWrapper",
+            "ConfigurationManager",
+            "AsfBigDataCollect",
+            "VehicleMirrorDataService",
+            "SignalWrapper"
+        ],
+        "container": "default"
+    },
+    "Container10": {
+        "apps": [
+            "vidps_service",
+            "vidps_monitor"
+        ],
+        "container": "default"
+    },
+    "Container11": {
+        "apps": [
+            "AsfSMMService"
+        ],
+        "container": "default"
+    },
+    "Container13": {
+        "apps": [
+            "SceneEngine"
+        ],
+        "container": "default"
+    },
+    "Container14": {
+        "apps": [
+            "ELShow",
+            "SPMEMaster",
+            "ConditionManage",
+            "nfsoa",
+            "ConfigurationManage",
+            "BHS"
+        ],
+        "container": "default"
+    },
+    "Container16": {
+        "apps": [
+            "SteerService",
+            "DrvSafRatService",
+            "DrvStylService",
+            "CoastService",
+            "DrvEcoRatService",
+            "HashDecService",
+            "IgOnOffService",
+            "DrvAwyService",
+            "EnergyManagementService",
+            "HashAccService",
+            "DataAdaptEvalService",
+            "LongTimeSpdPeptService",
+            "RevDrvService",
+            "AddEnrgHabService",
+            "DrvStyleRecogService",
+            "IdleService",
+            "ShortTimeSpdPeptService",
+            "StdyStDrvService",
+            "LnChgService",
+            "DrvCndService"
+        ],
+        "container": "default"
+    },
+    "Container20": {
+        "apps": [
+            "DFWT_DP"
+        ],
+        "container": "default"
+    },
+    "NeusarHealth": {
+        "apps": [
+            "AsfOsHealthMonitor",
+            "AsfHealthReporter",
+            "AsfHealthSlave"
+        ],
+        "container": "default"
+    },
+    "neu_container": {
+        "apps": [
+            "AsfFlashingAdapter",
+            "AraStateManager",
+            "AraDcmEcuReset",
+            "AsfDiagLogApp",
+            "AP_ServiceManagementServer",
+            "AsfCampaignStateManager",
+            "AraCryptoStackGm",
+            "AraDiagnosticManager",
+            "AsfLogManagement",
+            "AsfDoipInformation",
+            "AraDcmCommunicationControl",
+            "AsfLogCollect",
+            "FotaServer",
+            "AsfDiagnosticProxy",
+            "AsfPmSlave",
+            "AraNmServer",
+            "AsfTsManagerDaemon",
+            "AsfStoragemProxy",
+            "AraUcmServer",
+            "AraSmClient",
+            "AsfNeusarSoaServer",
+            "AraUcmMaster",
+            "AsfNmWrapper",
+            "AraDcmFileTransfer",
+            "AraNmClient",
+            "AraDltDaemon",
+            "AraAccessManager",
+            "AraVsomeipd",
+            "AraCryptoStack",
+            "chronyd",
+            "AraExecutionManager",
+            "AsfDiagAppProxy",
+            "AraPlatformHealthManager",
+            "AsfInterCoreCommDaemon"
+        ],
+        "container": "neu_container"
+    }
+}

@@ -1,0 +1,143 @@
+[
+    {
+        "checksum": 0,
+        "key": "platform_application",
+        "value": {
+            "bool": false
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "application_states",
+        "value": {
+            "string[]": []
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "safety_application",
+        "value": {
+            "bool": false
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "signature_value",
+        "value": {
+            "string": "154aef7d950e0cad4dd4f7184e0654c74d570f1a"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "second_signature_value",
+        "value": {
+            "string": "ThisApplicationSecondSignatureValueInManifest"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "timer_resolution_ns",
+        "value": {
+            "uint32": 1000
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "number_of_restart_attempts",
+        "value": {
+            "uint32": 0
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "reporting_behavior",
+        "value": {
+            "string": "REPORTS-EXECUTION-STATE"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "version",
+        "value": {
+            "string": "1.0.0.0000"
+        }
+    },
+    {
+        "checksum": 0,
+        "key": "startup_configs",
+        "value": {
+            "object[]": [
+                {
+                    "checksum": 0,
+                    "key": "GeneralStartupConfig",
+                    "value": {
+                        "object[]": [
+                            {
+                                "checksum": 0,
+                                "key": "machine_states",
+                                "value": {
+                                    "string[]": []
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "function_group_states",
+                                "value": {
+                                    "string[]": [
+                                        "Container08.initial",
+                                        "Container08.Verify",
+					"Container08.Running"
+                                    ]
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "arguments",
+                                "value": {
+                                    "string[]": [
+                                        "exec",
+                                        "-e",
+                                        "TSAN_OPTIONS=use_madv_dontdump=0:log_path=/containers/Container08/work/common/opt/AsfServiceDispatchingManagement/tsan_sdm.log",
+                                        "-e",
+                                        "LD_PRELOAD=/containers/NeuSARPlatform/work/base/common/usr/lib/libtsan.so",
+                                        "-e",
+                                        "VSOMEIP_CONFIGURATION=/containers/Container08/work/common/opt/AsfServiceDispatchingManagement/etc/vsomeip.json",
+                                        "-e",
+                                        "E2E_CONFIGURATION=/containers/Container08/work/common/opt/AsfServiceDispatchingManagement/etc/e2e_configuration.json",
+                                        "-e",
+                                        "S2S_CONFIGURATION=/containers/Container08/work/common/opt/AsfServiceDispatchingManagement/etc/s2s_config.json",
+                                        "-e",
+                                        "NEUSAR_CURRENT_DIR=/containers/Container08/work/common/opt/AsfServiceDispatchingManagement",
+                                        "Container08",
+                                        "/containers/Container08/work/common/opt/AsfServiceDispatchingManagement/bin/AsfServiceDispatchingManagement"
+                                    ]
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "scheduling_policy",
+                                "value": {
+                                    "string": "SCHEDULING-POLICY-OTHER"
+                                }
+                            },
+                            {
+                                "checksum": 0,
+                                "key": "environment",
+                                "value": {
+                                    "string[]": [
+                                        "VSOMEIP_CONFIGURATION=/containers/NeuSARPlatform/work/common/opt/AsfServiceDispatchingManagement/etc/vsomeip.json",
+                                        "E2E_CONFIGURATION=/containers/NeuSARPlatform/work/common/opt/AsfServiceDispatchingManagement/etc/e2e_configuration.json",
+                                        "NEUSAR_CURRENT_DIR=/containers/NeuSARPlatform/work/common/opt/AsfServiceDispatchingManagement",
+                                        "S2S_CONFIGURATION=/containers/NeuSARPlatform/work/common/opt/AsfServiceDispatchingManagement/etc/s2s_config.json",
+                                        "TSAN_OPTIONS=use_madv_dontdump=0:log_path=/containers/Container08/work/common/opt/AsfServiceDispatchingManagement/tsan_sdm.log",
+                                        "LD_PRELOAD=/containers/NeuSARPlatform/work/base/common/usr/lib/libtsan.so"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

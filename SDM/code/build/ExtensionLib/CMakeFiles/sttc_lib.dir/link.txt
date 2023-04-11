@@ -1,0 +1,2 @@
+aarch64-poky-linux-ar qc ../../ExtensionLib/output/lib/s32g/libsdm_wrapper.a CMakeFiles/sttc_lib.dir/src/MD5.cpp.o CMakeFiles/sttc_lib.dir/src/NetMaintainManagement.cpp.o CMakeFiles/sttc_lib.dir/src/SomeIpCommunicationProxy.cpp.o CMakeFiles/sttc_lib.dir/src/SomeIpConfigFileOperation.cpp.o CMakeFiles/sttc_lib.dir/src/service_dynamic_discovery_supporter.cpp.o
+aarch64-poky-linux-ranlib ../../ExtensionLib/output/lib/s32g/libsdm_wrapper.a
